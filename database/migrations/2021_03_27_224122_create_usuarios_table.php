@@ -20,7 +20,8 @@ class CreateUsuariosTable extends Migration
             $table->string('direccion');
             $table->string('instrumento');
             $table->string('exp');
-            
+            $table->string('usuarios');
+            $table->timestamps();
         });
     }
     /**
